@@ -15,7 +15,10 @@ body {
 /***********************************/
 /* GENERAL STYLES */
 /***********************************/
-
+.line {
+  height: 3px;
+  background-color: black;
+}
 .content-wrapper {
   margin: 0 auto;
 }
@@ -100,3 +103,22 @@ body {
 /***********************************/
 /* ABOUT ME */
 /***********************************/
+.about {
+  width: 500px;
+  padding: 60px;
+}
+.about_me {
+  text-transform: uppercase;
+}
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.about p {
+  line-height: 1.4;
+}
+.left li {
+  margin-bottom: 5px;
+  margin-left: 50px;
+  font-size: ;
+}
