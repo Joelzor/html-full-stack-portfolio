@@ -1,6 +1,6 @@
 :root {
   --primary-colour: rgba(37, 188, 188, 0.849);
-  --portfolio-colour: rgb(179, 66, 85);
+  --portfolio-colour: rgb(150, 7, 131);
 }
 
 * {
@@ -26,7 +26,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 2fr 1fr 1.5fr 1.5fr 100px;
+  grid-template-rows: 1fr 0.75fr 1fr 1fr 100px;
 }
 
 .margin-bottom {
@@ -154,7 +154,7 @@ body {
 
 .title {
   background-color: aliceblue;
-  border: solid 5px rgb(187, 56, 78);
+  border: solid 5px rgb(150, 7, 131);
   padding: 25px;
   width: 300px;
 }
@@ -184,4 +184,24 @@ body {
   text-align: center;
   color: var(--portfolio-colour);
   font-weight: 600;
+}
+
+/***********************************/
+/* experience */
+/***********************************/
+.experience {
+  width: 500px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+.experience p {
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+footer {
+  background-color: rgb(2, 22, 26);
+  color: aliceblue;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
 }
