@@ -61,6 +61,7 @@ body {
   display: grid;
   grid-auto-flow: column;
   gap: 15px;
+  margin-right: 30px;
 }
 
 .profile-name {
@@ -207,6 +208,11 @@ footer {
   display: flex;
   align-items: center;
 }
+
+footer p {
+  margin-left: 30px;
+}
+
 .profile,
 .portfolio {
   border-bottom: solid black 3px;
